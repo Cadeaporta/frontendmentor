@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(210, 216, 224);
+}
+
+#ratingbox {
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 350px;
+    border-radius: 15px;
+}
+
+#question {
+    text-align: center;
+    font-size: 21px;
+    padding-top: 30px;
+    line-height: 0.0;
+}
+
+#stars {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+#stars {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    color: #ccc; 
+    font-size: 30px;
+}
+
+#stars {
+    margin-left: 125px;
+    font-size: 80px;
+
+}
+#stars span {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#stars span:hover,
+
+#stars span:hover ~ span {
+    color: gold;
+}
+
